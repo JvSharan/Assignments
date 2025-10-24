@@ -5,6 +5,7 @@ public class Assignment13 {
 	public static void main(String[] args) {
 		String paragraph = "Java is a popular programming language. Java is used for web development, mobile applications, and more.";
 
+		//split() is used to convert the sentence into words by removing comma, full stop and space("[,\\.\\s]")
 		String words[] = paragraph.split("[,\\.\\s]+");
 		int count = words.length;
 		int occurrences = 0;
@@ -15,6 +16,7 @@ public class Assignment13 {
 		
 		for(int i = 0; i < count; i++) {
 			int index = i+1;
+			//contentEquals() is used to check the word is "Java" or not
 			if(words[i].contentEquals("Java")) {
 				occurrences++;
 			}
