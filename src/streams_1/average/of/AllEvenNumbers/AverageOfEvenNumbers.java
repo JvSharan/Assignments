@@ -1,8 +1,9 @@
-package assignment15_1.average.of.AllEvenNumbers;
+package streams_1.average.of.AllEvenNumbers;
 
-import java.util.List;
 import java.util.ArrayList;
-public class AverageOfEvenNumber {
+import java.util.List;
+
+public class AverageOfEvenNumbers {
 
 	public static void main(String[] args) {
 		
@@ -21,6 +22,7 @@ public class AverageOfEvenNumber {
 		float averageOfEven = sum / numberOfEven;
 
 		System.out.println("Average of all Even Numbers: " + averageOfEven);
+
 	}
 
 }
